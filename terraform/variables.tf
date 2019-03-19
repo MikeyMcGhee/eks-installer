@@ -23,6 +23,6 @@ variable "cluster-instance-type" {
 }
 
 variable "cluster-key-name" {
-  default = "armadev"
+  default = ""
   type    = "string"
 }
