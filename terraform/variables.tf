@@ -13,7 +13,7 @@ variable "cluster-size" {
 }
 
 variable "cluster-region" {
-  default = "us-west-2"
+  default = "eu-west-2"
   type    = "string"
 }
 
@@ -23,6 +23,6 @@ variable "cluster-instance-type" {
 }
 
 variable "cluster-key-name" {
-  default = ""
+  default = "armadev"
   type    = "string"
 }
